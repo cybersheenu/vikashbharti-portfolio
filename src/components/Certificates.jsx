@@ -3,18 +3,38 @@ import { portfolioData } from "../data/portfolioData";
 
 function Certificates() {
   return (
-    <section id="certificates" className="cert-section">
-      <h2>Certifications</h2>
+    <section id="certificates" className="cert-showcase">
+      
+      {/* LEFT CONTENT */}
+      <div className="cert-left">
+        <h4>Check Out</h4>
+        <h2>My Certificates</h2>
 
-      <div className="cert-grid">
+        <p>
+          I have completed multiple cybersecurity and programming courses to
+          strengthen my technical foundation. Below are some key certifications
+          that showcase my learning journey and practical skills.
+        </p>
+
+        <a href="#contact" className="cert-btn">
+          Know More
+        </a>
+      </div>
+
+      {/* RIGHT CARDS */}
+      <div className="cert-right">
         {portfolioData.certificates.map((cert, index) => (
-          <div className="cert-card" key={index}>
+          <div className="cert-mini-card" key={index}>
+            {/* future image support */}
+            {/* <img src={cert.image} alt={cert.title} /> */}
+
             <h3>{cert.title}</h3>
-            <p>{cert.platform}</p>
-            <span>{cert.year}</span>
+            <span>{cert.platform}</span>
+            <small>{cert.year}</small>
           </div>
         ))}
       </div>
+
     </section>
   );
 }

@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <a href={instagram} target="_blank" rel="noreferrer">
+      {/* <a href={instagram} target="_blank" rel="noreferrer">
         Instagram
       </a>
       <a href={linkedin} target="_blank" rel="noreferrer">
@@ -21,7 +21,7 @@ function Footer() {
       </a>
       <a href={tryhackme} target="_blank" rel="noreferrer">
         TryHackMe
-      </a>
+      </a> */}
     </footer>
   );
 }

@@ -78,16 +78,16 @@ certificates: [
     platform: "Udemy",
     year: "2024"
   },
- // {
-   // title: "Web Fundamentals",
-   // platform: "TryHackMe",
-  //  year: "2024"
-  //},
- // {
-  //  title: "Bug Bounty Hunter",
-   // platform: "Self Learning / Labs",
-  //  year: "Ongoing"
- // }
+ {
+   title: "Jr Penetration Tester",
+   platform: "TryHackMe",
+   year: "2026"
+  },
+ {
+   title: "Bug Bounty Hunter",
+   platform: "Self Learning / Labs",
+   year: "Ongoing"
+ }
 ],
 
 
