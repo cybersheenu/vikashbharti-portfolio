@@ -5,6 +5,9 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Certificates from "./components/Certificates";
+import SecurityRecognitions from "./components/SecurityRecognitions";
+
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <Hero />
       <Skills />
       <Experience />
+      <SecurityRecognitions />
        <Certificates />
       <Contact />
       <Footer />   

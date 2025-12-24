@@ -2,6 +2,9 @@ import React from "react";
 import profile from "../assets/profile.png";
 import "../App.css";
 
+
+
+
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -10,15 +13,33 @@ function Hero() {
         <h1>
           Hi, I'm <span>Vikash Bharti</span>
         </h1>
-
+                  
         <h2>
-          Ethical Hacker | Bug Bounty Hunter <br />
+          Ethical Hacker | Bug Hunter <br />
           Security Researcher
         </h2>
+             
+          
 
-        <p>
-         A passionate Ethical Hacker & Bug Bounty Hunter specializing in discovering real-world vulnerabilities, breaking flawed business logic, and securing modern web applications before attackers do.
-        </p>
+            {/* Bio */}
+
+       <div className="hero-bio">
+<div className="bio-wrapper">
+  <p className="bio-line line-1">
+    Uncovering vulnerabilities before attackers can exploit them.<br />
+      Focused on hands-on testing, ethical disclosure,
+    and lifelong learning.
+  </p>
+
+  <p className="bio-line line-2">
+   {/* You can add some extra line for bio */}
+  </p>
+
+  <span className="bio-underline"></span>
+</div>
+
+</div>
+
 
         <div className="buttons">
           <a href="#skills">View My Work</a>

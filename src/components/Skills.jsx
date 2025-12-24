@@ -3,7 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
+      <h2> 🛠️ Skills</h2>
 
       <div className="skills-box-wrapper">
 

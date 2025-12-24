@@ -3,7 +3,7 @@ export const portfolioData = {
   title: "Ethical Hacker | Bug Bounty Hunter | Security Researcher",
 
   email: "borngrief21@gmail.com",
-
+        // Skills
   skills: [
     {
       category: "Offensive Security",
@@ -35,7 +35,7 @@ export const portfolioData = {
       ]
     }
   ],
-
+// Experience
   experience: [
     {
       title: "Bug Bounty Hunting",
@@ -70,8 +70,23 @@ export const portfolioData = {
       ]
     }
   ],
-// ADD BELOW experience
 
+  // existing data...
+
+  securityRecognitions: [
+    {
+      company: "Cywer Learning",
+      program: "Bug Bounty Program",
+      vulnerability: "Security Vulnerability Disclosure",
+      year: "2024",
+      proof: "https://www.cywerlearning.com/s/pages/bugbountyprogram"
+
+    } 
+  ],
+
+
+  
+//Certifications
 certificates: [
   {
     title: "Computer Networks Fundamentals",
@@ -90,7 +105,7 @@ certificates: [
  }
 ],
 
-
+//social media links
   socialLinks: {
     instagram: "https://www.instagram.com/cyber.sheenu/",
     linkedin: "https://linkedin.com/in/vikashbharti21",

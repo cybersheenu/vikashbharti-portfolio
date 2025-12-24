@@ -3,7 +3,7 @@ import React from "react";
 function Experience() {
   return (
     <section id="experience" className="experience-new">
-      <h2>Experience</h2>
+      <h2>💼 Experience</h2>
 
       <div className="experience-grid">
 

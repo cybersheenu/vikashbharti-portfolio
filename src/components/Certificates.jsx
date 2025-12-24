@@ -8,7 +8,7 @@ function Certificates() {
       {/* LEFT CONTENT */}
       <div className="cert-left">
         <h4>Check Out</h4>
-        <h2>My Certificates</h2>
+        <h2> 📜 My Certificates</h2>
 
         <p>
           I have completed multiple cybersecurity and programming courses to

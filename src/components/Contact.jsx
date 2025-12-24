@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section id="contact" className="contact-section">
       <div className="contact-card">
-        <h2>Contact Me</h2>
+        <h2>✉️ Contact Me</h2>
 
         <p className="contact-email">
           📧{" "}
